@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		256AC3DA0F4B6AC300CF3369 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* AppDelegate.m */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		D8908E9D1142BD4B00C43B3E /* ClubIconTiny.png in Resources */ = {isa = PBXBuildFile; fileRef = D8908E9C1142BD4B00C43B3E /* ClubIconTiny.png */; };
+		D89092E311431EC300C43B3E /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D89092E211431EC300C43B3E /* Preferences.xib */; };
+		D890930C114324EA00C43B3E /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = D890930B114324EA00C43B3E /* PreferencesController.m */; };
+		D896F5151104D1BE00A7D4AC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D896F5141104D1BE00A7D4AC /* Credits.rtf */; };
+		D8A402641104D373002DA9CD /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A402631104D373002DA9CD /* Sparkle.framework */; };
+		D8A402791104D3CF002DA9CD /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D8A402631104D373002DA9CD /* Sparkle.framework */; };
+		D8A4027E1104D4D7002DA9CD /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = D8A4027D1104D4D7002DA9CD /* dsa_pub.pem */; };
+		D8CA9A4F1102599A00E70B07 /* BorderlessWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CA9A4E1102599A00E70B07 /* BorderlessWindow.m */; };
+		D8CA9AEB110260FD00E70B07 /* MouseView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CA9AEA110260FD00E70B07 /* MouseView.m */; };
+		D8CA9AF01102614100E70B07 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8CA9AEF1102614100E70B07 /* QuartzCore.framework */; };
+		D8CA9DF31102916D00E70B07 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58150DA1D0A300B32029 /* MainMenu.xib */; };
+		D8CAA28A1102CB6300E70B07 /* TouchSynthesis in Resources */ = {isa = PBXBuildFile; fileRef = D8CAA2891102CB5F00E70B07 /* TouchSynthesis */; };
+		D8CAA4311102E3A900E70B07 /* Sesamouse.icns in Resources */ = {isa = PBXBuildFile; fileRef = D8CAA4301102E3A900E70B07 /* Sesamouse.icns */; };
+		D8CAA4A01102E7F200E70B07 /* StatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CAA49F1102E7F200E70B07 /* StatusView.m */; };
+		D8E19B151124C5C200206439 /* NSOperationQueue+TLExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E19B141124C5C200206439 /* NSOperationQueue+TLExtensions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8CAA2881102CB5F00E70B07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8CAA2841102CB5F00E70B07 /* TouchSynthesis.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DD76FA10486AA7600D96B5E;
+			remoteInfo = TouchSynthesis;
+		};
+		D8CAA28B1102CB7000E70B07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8CAA2841102CB5F00E70B07 /* TouchSynthesis.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DD76F960486AA7600D96B5E;
+			remoteInfo = TouchSynthesis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D8A402781104D3B5002DA9CD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D8A402791104D3CF002DA9CD /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* Sesamouse_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sesamouse_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Sesamouse-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Sesamouse-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Sesamouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sesamouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8908E9C1142BD4B00C43B3E /* ClubIconTiny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ClubIconTiny.png; sourceTree = "<group>"; };
+		D89092E211431EC300C43B3E /* Preferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
+		D890930A114324EA00C43B3E /* PreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesController.h; sourceTree = "<group>"; };
+		D890930B114324EA00C43B3E /* PreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesController.m; sourceTree = "<group>"; };
+		D896F5141104D1BE00A7D4AC /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		D8A402631104D373002DA9CD /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		D8A4027D1104D4D7002DA9CD /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		D8CA9A4D1102599A00E70B07 /* BorderlessWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorderlessWindow.h; sourceTree = "<group>"; };
+		D8CA9A4E1102599A00E70B07 /* BorderlessWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorderlessWindow.m; sourceTree = "<group>"; };
+		D8CA9AE9110260FD00E70B07 /* MouseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MouseView.h; sourceTree = "<group>"; };
+		D8CA9AEA110260FD00E70B07 /* MouseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MouseView.m; sourceTree = "<group>"; };
+		D8CA9AEF1102614100E70B07 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		D8CAA2841102CB5F00E70B07 /* TouchSynthesis.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TouchSynthesis.xcodeproj; path = ../Touch/TouchSynthesis/TouchSynthesis.xcodeproj; sourceTree = SOURCE_ROOT; };
+		D8CAA4301102E3A900E70B07 /* Sesamouse.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Sesamouse.icns; sourceTree = "<group>"; };
+		D8CAA49E1102E7F200E70B07 /* StatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusView.h; sourceTree = "<group>"; };
+		D8CAA49F1102E7F200E70B07 /* StatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusView.m; sourceTree = "<group>"; };
+		D8E19B131124C5C200206439 /* NSOperationQueue+TLExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSOperationQueue+TLExtensions.h"; sourceTree = "<group>"; };
+		D8E19B141124C5C200206439 /* NSOperationQueue+TLExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSOperationQueue+TLExtensions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				D8CA9AF01102614100E70B07 /* QuartzCore.framework in Frameworks */,
+				D8A402641104D373002DA9CD /* Sparkle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D8E19B131124C5C200206439 /* NSOperationQueue+TLExtensions.h */,
+				D8E19B141124C5C200206439 /* NSOperationQueue+TLExtensions.m */,
+				256AC3D80F4B6AC300CF3369 /* AppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* AppDelegate.m */,
+				D8CA9A4D1102599A00E70B07 /* BorderlessWindow.h */,
+				D8CA9A4E1102599A00E70B07 /* BorderlessWindow.m */,
+				D8CA9AE9110260FD00E70B07 /* MouseView.h */,
+				D8CA9AEA110260FD00E70B07 /* MouseView.m */,
+				D8CAA49E1102E7F200E70B07 /* StatusView.h */,
+				D8CAA49F1102E7F200E70B07 /* StatusView.m */,
+				D890930A114324EA00C43B3E /* PreferencesController.h */,
+				D890930B114324EA00C43B3E /* PreferencesController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Sesamouse.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Sesamagic */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Sesamagic;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* Sesamouse_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D8A4027D1104D4D7002DA9CD /* dsa_pub.pem */,
+				D8CAA2841102CB5F00E70B07 /* TouchSynthesis.xcodeproj */,
+				D8CAA4301102E3A900E70B07 /* Sesamouse.icns */,
+				D8908E9C1142BD4B00C43B3E /* ClubIconTiny.png */,
+				D896F5141104D1BE00A7D4AC /* Credits.rtf */,
+				8D1107310486CEB800E47090 /* Sesamouse-Info.plist */,
+				1DDD58150DA1D0A300B32029 /* MainMenu.xib */,
+				D89092E211431EC300C43B3E /* Preferences.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8A402631104D373002DA9CD /* Sparkle.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				D8CA9AEF1102614100E70B07 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8CAA2851102CB5F00E70B07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8CAA2891102CB5F00E70B07 /* TouchSynthesis */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Sesamouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Sesamouse" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				D8A402781104D3B5002DA9CD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8CAA28C1102CB7000E70B07 /* PBXTargetDependency */,
+			);
+			name = Sesamouse;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Sesamagic;
+			productReference = 8D1107320486CEB800E47090 /* Sesamouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Sesamouse" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Sesamagic */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D8CAA2851102CB5F00E70B07 /* Products */;
+					ProjectRef = D8CAA2841102CB5F00E70B07 /* TouchSynthesis.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Sesamouse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D8CAA2891102CB5F00E70B07 /* TouchSynthesis */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = TouchSynthesis;
+			remoteRef = D8CAA2881102CB5F00E70B07 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8CA9DF31102916D00E70B07 /* MainMenu.xib in Resources */,
+				D8CAA28A1102CB6300E70B07 /* TouchSynthesis in Resources */,
+				D8CAA4311102E3A900E70B07 /* Sesamouse.icns in Resources */,
+				D896F5151104D1BE00A7D4AC /* Credits.rtf in Resources */,
+				D8A4027E1104D4D7002DA9CD /* dsa_pub.pem in Resources */,
+				D8908E9D1142BD4B00C43B3E /* ClubIconTiny.png in Resources */,
+				D89092E311431EC300C43B3E /* Preferences.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* AppDelegate.m in Sources */,
+				D8CA9A4F1102599A00E70B07 /* BorderlessWindow.m in Sources */,
+				D8CA9AEB110260FD00E70B07 /* MouseView.m in Sources */,
+				D8CAA4A01102E7F200E70B07 /* StatusView.m in Sources */,
+				D8E19B151124C5C200206439 /* NSOperationQueue+TLExtensions.m in Sources */,
+				D890930C114324EA00C43B3E /* PreferencesController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8CAA28C1102CB7000E70B07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TouchSynthesis;
+			targetProxy = D8CAA28B1102CB7000E70B07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sesamouse_Prefix.pch;
+				INFOPLIST_FILE = "Sesamouse-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Sesamouse;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sesamouse_Prefix.pch;
+				INFOPLIST_FILE = "Sesamouse-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Sesamouse;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+				SEPARATE_STRIP = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Sesamouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Sesamouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
